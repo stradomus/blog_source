@@ -33,3 +33,5 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images']
 
 THEME = 'themes/pelican-alchemy/alchemy'
+
+HIDE_AUTHORS = True
