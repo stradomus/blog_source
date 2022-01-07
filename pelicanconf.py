@@ -32,4 +32,4 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images']
 
-THEME = "themes/pelican-alchemy/alchemy"
+THEME = '/home/ahmed/blog/themes/pelican-alchemy/alchemy'
