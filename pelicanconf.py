@@ -34,4 +34,6 @@ STATIC_PATHS = ['images']
 
 THEME = 'themes/pelican-alchemy/alchemy'
 
+BOOTSTRAP_CSS = '/home/ahmed/blog/themes/css/bootstrap.min.css'
+
 HIDE_AUTHORS = True
