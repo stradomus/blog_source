@@ -34,6 +34,6 @@ STATIC_PATHS = ['images']
 
 THEME = 'themes/pelican-alchemy/alchemy'
 
-BOOTSTRAP_CSS = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css'
+BOOTSTRAP_CSS = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css'
 
 HIDE_AUTHORS = True
