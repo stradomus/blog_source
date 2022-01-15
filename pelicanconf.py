@@ -1,11 +1,14 @@
+from random import randint, choice
+
 AUTHOR = 'Ahmed Hathroubi'
+HIDE_AUTHORS = False
+
 SITENAME = 'stradomus'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Rome'
-
+TIMEZONE = 'Europe/Zurich'
 DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
@@ -16,14 +19,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('META', '#'),
+         ('TXT', '#'),
+         ('DEV', '#'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Social widget (not available in alchemy theme)
+#SOCIAL = (('Instagram', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -32,8 +34,51 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images']
 
-THEME = 'themes/pelican-alchemy/alchemy'
+# --- Visual style ---
 
+## relative to "Alchemy"
+THEME = 'themes/pelican-alchemy/alchemy'
 BOOTSTRAP_CSS = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css'
 
-HIDE_AUTHORS = True
+## Site subtitles
+sub1 = 'Attrappez-les tous ! (Ctrl+R)'
+sub2 = '"Faut pas respirer la compote, ça fait tousser."'
+sub3 = """"*Absque Argento*..." J'ai plus la suite, c'est dommage parce qu'il y a " *Argento* ", on s'dit : "Le gars est bon, y cause pognon et patatrac il en a une sous le coude..."""""
+subtitles = [sub1, sub2, sub3]
+SITESUBTITLE = choice(subtitles)
+
+## Site images
+cubchoo = '/images/pokemon/cubchoo.gif'
+SITEIMAGE = cubchoo
+"""
+siteimages = []
+
+shinylist = []
+
+image_chosen = 0
+
+image = choice(siteimages)
+while image_chosen == 0:
+    if image in shinylist:
+        SITEIMAGE = choice
+        image_chosen = 1
+"""
+
+#DESCRIPTION = '' \
+#              '' \
+#              ''
+
+
+ICONS = [
+    ('github', 'https://github.com/stradomus'),
+    ('instagram', 'https://www.instagram.com/ahmed.hthrb/'),
+]
+
+PYGMENTS_STYLE = 'monokai'
+RFG_FAVICONS = True
+
+## Default value is ['index', 'tags', 'categories', 'authors', 'archives']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'sitemap']
+SITEMAP_SAVE_AS = 'sitemap.xml'
+
+
