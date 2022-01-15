@@ -43,12 +43,12 @@ BOOTSTRAP_CSS = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/boots
 ## Site subtitles
 sub1 = 'Attrappez-les tous ! (Ctrl+R)'
 sub2 = '"Faut pas respirer la compote, ça fait tousser."'
-sub3 = """"*Absque Argento*..." J'ai plus la suite, c'est dommage parce qu'il y a " *Argento* ", on s'dit : "Le gars est bon, y cause pognon et patatrac il en a une sous le coude..."""""
+sub3 = 'Argumentum baculinum… l’argument du bâton ! Ah ben zut… heu… qui est à la fois correct et à propos. Bon alors du coup on va lui préférer Delenda Carthago, hein… il faut détruire Carthage… qui est juste très con.'
 subtitles = [sub1, sub2, sub3]
 SITESUBTITLE = choice(subtitles)
 
 ## Site images
-cubchoo = '/images/pokemon/cubchoo.gif width=200 height=200'
+cubchoo = '/images/pokemon/cubchoo.gif width=64 height=64'
 SITEIMAGE = cubchoo
 """
 siteimages = []
