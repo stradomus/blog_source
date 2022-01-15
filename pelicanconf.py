@@ -48,7 +48,7 @@ subtitles = [sub1, sub2, sub3]
 SITESUBTITLE = choice(subtitles)
 
 ## Site images
-cubchoo = '/images/pokemon/cubchoo.gif width=150 height=150'
+cubchoo = '/images/pokemon/cubchoo.gif'
 SITEIMAGE = cubchoo
 """
 siteimages = []
