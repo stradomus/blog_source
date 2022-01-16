@@ -41,15 +41,18 @@ THEME = 'themes/pelican-alchemy/alchemy'
 BOOTSTRAP_CSS = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css'
 
 ## Site subtitles
-sub1 = 'Attrappez-les tous ! (Ctrl+R)'
+sub1 = '"Comme le joug de fruit ?"'
 sub2 = '"Faut pas respirer la compote, ça fait tousser."'
-sub3 = 'Argumentum baculinum… l’argument du bâton ! Ah ben zut… heu… qui est à la fois correct et à propos. Bon alors du coup on va lui préférer Delenda Carthago, hein… il faut détruire Carthage… qui est juste très con.'
-subtitles = [sub1, sub2, sub3]
+sub3 = '"Argumentum baculinum… l’argument du bâton ! Ah ben zut… heu… qui est à la fois correct et à propos. Bon alors du coup on va lui préférer Delenda Carthago, hein… il faut détruire Carthage… qui est juste très con."'
+sub4 = '"Moi, la canne, ça m’aide. Je visualise le caillou dans l’eau, j’ai l’impression de faire partie d’un tout, moi, le caillou, le fil, le lac, le ciel, c’est entier, vous comprenez ? C’est bien fini. C’est pour ça, moi je me dis, c’est dans ces moments-là qu’on peut bien comprendre des trucs. Vous me prenez pour un con, non ?"'
+sub5 = '"Ah ça y’est, j’viens de comprendre à quoi ça sert la canne. En fait ça sert à rien… Du coup ça nous renvoie à notre propre utilité : l’Homme face à l’Absurde !"'
+sub6 = '''"Je vais vous poser une série de questions. Vous répondez par oui, non, ou Zbradaraldjan. Ok c'est parti : où se trouve l'oiseau ?… Allez c'est facile ça. Trouve pas ? Bon tant pis. C'était "sur la branche". Eh oui, y a des pièges."'''
+subtitles = [sub1, sub2, sub3, sub4, sub5, sub6]
 SITESUBTITLE = choice(subtitles)
 
 ## Site images
-cubchoo = '/images/ducklett.gif'
-SITEIMAGE = cubchoo
+image = '/images/pancham.gif'
+SITEIMAGE = image
 """
 siteimages = []
 
