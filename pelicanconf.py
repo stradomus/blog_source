@@ -51,7 +51,7 @@ subtitles = [sub1, sub2, sub3, sub4, sub5, sub6]
 SITESUBTITLE = choice(subtitles)
 
 ## Site images
-image = '/images/pancham.gif'
+image = '/images/pancham.gif width=200 height=200'
 SITEIMAGE = image
 """
 siteimages = []
