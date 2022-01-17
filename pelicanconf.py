@@ -21,7 +21,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('META', '#'),
          ('TXT', '#'),
-         ('DEV', '#'),)
+         ('DEV', '#'),
+         ('ART', '#'),)
 
 # Social widget (not available in alchemy theme)
 #SOCIAL = (('Instagram', '#'),
@@ -51,25 +52,15 @@ subtitles = [sub1, sub2, sub3, sub4, sub5, sub6]
 SITESUBTITLE = choice(subtitles)
 
 ## Site images
-image = '/images/pokemon/noibat-s.gif'
-SITEIMAGE = image
-"""
-siteimages = []
+pokemon = ['/images/pokemon/cubchoo.gif','/images/pokemon/cubchoo-s.gif','/images/pokemon/goomy.gif','/images/pokemon/goomy-s.gif','/images/pokemon/mareanie.gif',
+'/images/pokemon/mareanie-s.gif','/images/pokemon/noibat.gif','/images/pokemon/noibat-s.gif','/images/pokemon/pancham.gif','/images/pokemon/pancham-s.gif',
+'/images/pokemon/pidove.gif','/images/pokemon/pidove-s.gif','/images/pokemon/pincurchin.gif','/images/pokemon/pincurchin-s.gif','/images/pokemon/rowlet.gif',
+'/images/pokemon/rowlet-s.gif','/images/pokemon/snom.gif','/images/pokemon/snom-s.gif','/images/pokemon/snorunt.gif','/images/pokemon/snorunt-s.gif',]
+SITEIMAGE = choice(pokemon)
 
-shinylist = []
-
-image_chosen = 0
-
-image = choice(siteimages)
-while image_chosen == 0:
-    if image in shinylist:
-        SITEIMAGE = choice
-        image_chosen = 1
-"""
-
-#DESCRIPTION = '' \
-#              '' \
-#              ''
+DESCRIPTION = 'This is' \
+              'A description' \
+              'For this blog.'
 
 
 ICONS = [
