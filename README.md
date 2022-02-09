@@ -1,3 +1,3 @@
 # blog_source
 
-A place for my blog at stradomus.netlify.app
+Where the configuration for my blog at https://stradomus.netlify.app is stored.
